@@ -17,7 +17,7 @@
 					<!-- Row -->
 					<div class="f-row">
 						<div class="form-group datepicker one-third">
-							<label for="dep-date">Departure date and time 1</label>
+							<label for="dep-date">Departure date and time 2</label>
 							<input type="text" id="dep-date" />
 						</div>
 						<div class="form-group select one-third">
