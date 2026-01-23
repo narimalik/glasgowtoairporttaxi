@@ -1,0 +1,23 @@
+
+Using:
+Laravel 10v
+
+
+
+Slice HTML into pages.
+Use only .css and .js file related to that page.
+Test New page thoroughly and check if there is any error in console tag.
+
+
+
+Laravel:
+Create Page Layout
+Convert HTML into Laravel resources pages
+
+
+
+GIT:
+Create repository on Git
+Upload files on Git.
+
+
