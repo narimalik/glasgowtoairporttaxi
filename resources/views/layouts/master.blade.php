@@ -11,13 +11,13 @@
 	
 <!--  -->
 <?php // include("includes/header.php"); ?>
-@include('includes.header')
+@include('includes.headerfiles')
 @stack('styles')  <!-- It will include all css files from sub view files which are specific for that view.  -->
 <!--  -->
 	
   </head>
   
-  <body class="home">
+  <body class="home22">
 		<!-- Preloader -->
 		<div class="preloader">
 			<div id="followingBallsG">
@@ -31,6 +31,7 @@
 		
 		<!-- Header -->
 		<?php //include("includes/topmenu.php"); ?>
+		@include('includes.header')
         @include('includes.topmenu')
 		<!-- //Header -->
 	
