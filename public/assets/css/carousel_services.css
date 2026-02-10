@@ -1,0 +1,23 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 33.3333%;
+  box-sizing: border-box;
+  padding: 20px;
+  
+}
+
+/* 📱 Mobile: EXACTLY 1 slide */
+@media (max-width: 768px) {
+  .slide {
+    flex: 0 0 100%;
+  }
+}

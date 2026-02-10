@@ -5,23 +5,24 @@
 			<!-- Main Nav -->
 			<nav role="navigation" class="main-nav">
 				<ul>
-					<li class="active"><a href="index.html" title="">Home</a></li>
-					<li><a href="destinations.html" title="Destinations">Destinations</a>
-						<ul>
+					<li class="active"><a href="{{ url('/') }}" title="">Home</a></li>
+					<li><a href="{{ url('aboutus') }}" title="">About Us</a>
+						<!-- <ul>
 							<li><a href="destination-single.html" title="Single destination">Single destination</a></li>
 							<li><a href="destination-micro.html" title="Micro destination">Micro destination</a></li>
-						</ul>
+						</ul> -->
 					</li>
-					<li><a href="tailor-made.html" title="Tailor made">Tailor made</a></li>
-					<li><a href="blog.html" title="Blog">Blog</a>
+					<li><a href="{{ url('services') }}" title="">Our Services</a></li>
+					<!-- <li><a href="blog.html" title="Blog">Blog</a>
 						<ul>
 							<li><a href="blog.html" title="Post">Blog list</a></li>
 							<li><a href="blog2.html" title="Post">Blog grid</a></li>
 							<li><a href="blog-single.html" title="Post">Post</a></li>
 						</ul>
-					</li>
-					<li><a href="contact.html" title="Contact">Contact</a></li>
-					<li><a href="#" title="Pages">Pages</a>
+					</li> -->
+					<li><a href="contact.html" title="Contact">Book Online</a></li>
+					<li><a href="contact.html" title="Contact">Contact Us</a></li>
+					<!-- <li><a href="#" title="Pages">Pages</a>
 						<div>
 							<div class="one-fourth">
 								<h2>Common</h2>
@@ -60,8 +61,8 @@
 								</ul>
 							</div>
 						</div>
-					</li>
-					<li><a href="http://themeforest.net/item/transfers-transport-and-car-hire-html-template/9366018?ref=themeenergy" title="Purchase">Purchase</a></li>
+					</li> -->
+					
 				</ul>
 			</nav>
 				<!-- //Main Nav -->

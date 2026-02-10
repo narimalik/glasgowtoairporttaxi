@@ -150,6 +150,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .top-header-right > .header_contact > a > svg { width: 100%;	height: 100%; }
 
 .top-header-right > .header_contact > a > .content{  font-size: 20px;  margin: 10px ; padding: 0; }
+.top-header-right > .header_contact > a > .content-email{  font-size: 20px;  margin: 10px ; padding: 0; }
 
 .width-75 { width: 75% !important;}
 
@@ -217,7 +218,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .main 				{padding:0;}
 .home .advanced-search 	{margin:0;}
 
-.intro 					{background:url(../images/uploads/glasgowtoairporttaxi.jpg) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;}
+.intro 					{background:url(../images/uploads/glasgowtoairporttaxi.png) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;}
 .intro .textwidget		{color:#fff;padding-top:24%;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
@@ -925,12 +926,12 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 	float: left;
 	margin-bottom: 10px;
 	font-weight: bold;
-	letter-spacing: 3px;	
+	/* letter-spacing: 3px;	 */
 }
 
-.top-header-right > .header_contact > a > .content{
+.top-header-right > .header_contact > a > .content-email{
 	font-size: unset;
-	font-size: 25px !important;
+	font-size: 15px !important;
 	
 }
 

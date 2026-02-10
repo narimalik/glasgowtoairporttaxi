@@ -444,7 +444,7 @@
 					</div>
 				</figure>
 				<div class="details">
-					<h4><a href="services.html">Private transfers</a></h4>
+					<h4><a href="services.html">Glasgow Airport transfers</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					<a class="more" title="Read more" href="services.html">Read more</a>
 				</div>
@@ -460,7 +460,7 @@
 					</div>
 				</figure>
 				<div class="details">
-					<h4><a href="services.html">Bus transfers</a></h4>
+					<h4><a href="services.html">Edinburgh Airport Transfer</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					<a class="more" title="Read more" href="services.html">Read more</a>
 				</div>
@@ -476,7 +476,7 @@
 					</div>
 				</figure>
 				<div class="details">
-					<h4><a href="services.html">Shuttle transfers</a></h4>
+					<h4><a href="services.html">Prestwick Airport</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					<a class="more" title="Read more" href="services.html">Read more</a>
 				</div>
@@ -492,7 +492,7 @@
 					</div>
 				</figure>
 				<div class="details">
-					<h4><a href="services.html">Helicopter transfers</a></h4>
+					<h4><a href="services.html">Taxi service</a></h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					<a class="more" title="Read more" href="services.html">Read more</a>
 				</div>

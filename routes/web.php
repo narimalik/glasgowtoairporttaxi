@@ -22,3 +22,13 @@ Route::get('/', function () {
 Route::get('innerpage/', function () {
     return view('innerpage');
 });
+
+Route::get('aboutus/', function () {
+    return view('aboutus');
+});
+
+
+Route::get('services/', function () {
+    return view('services');
+});
+

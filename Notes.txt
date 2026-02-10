@@ -24,3 +24,15 @@ Upload files on Git.
 
 EasyTaxi:
 https://easytaxioffice.co.uk/pricing/cloud/
+
+
+
+
+TO DO:-
+
+Pages:
+Home
+About Us
+Our services
+Book Online
+Contact Us
