@@ -21,7 +21,7 @@
 						</ul>
 					</li> -->
 					<li><a href="contact.html" title="Contact">Book Online</a></li>
-					<li><a href="contact.html" title="Contact">Contact Us</a></li>
+					<li><a href="{{ url('contactus') }}" title="">Contact Us</a></li>
 					<!-- <li><a href="#" title="Pages">Pages</a>
 						<div>
 							<div class="one-fourth">

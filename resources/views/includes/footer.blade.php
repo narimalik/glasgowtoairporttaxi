@@ -4,7 +4,7 @@
 				<!-- Column -->
 				<article class="one-half">
 					<h6>About us</h6>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+					<p>We specialise in reliable airport transfers to and from Glasgow Airport, Edinburgh Airport, Prestwick Airport, and surrounding airports. We understand how important punctuality is when it comes to flights, which is why we plan every journey carefully to ensure timely arrivals and smooth pickups. Make your event travel effortless with our private hire service for parties and special occasions. From birthdays and weddings to corporate events and nights out, we provide stylish and dependable transport so you can focus on enjoying the moment..</p>
 				</article>
 				<!-- //Column -->
 				
@@ -12,8 +12,8 @@
 				<article class="one-fourth">
 					<h6>Need help?</h6>
 					<p>Contact us via phone or email:</p>
-					<p class="contact-data"><span class="icon icon-themeenergy_call"></span> +1 555 555 555</p>
-					<p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@transfers.com">help@transfers.com</a></p>
+					<p class="contact-data"><span class="icon icon-themeenergy_call"></span> {{env('BOOKING_PHONENUMBER')}} </p>
+					<p class="contact-data"><span class="icon icon-themeenergy_mail-2"></span> <a href="mailto:help@transfers.com">{{env('BOOKING_EMAIL')}}</a></p>
 				</article>
 				<!-- //Column -->
 				
@@ -33,9 +33,9 @@
 			</div>
 			
 			<div class="copy">
-				<p>Copyright 2016, Themeenergy. All rights reserved. </p>
+				<p>Copyright <?php echo date('Y')?>, GlasgowToAirportTaxi. All rights reserved. </p>
 				
-				<nav role="navigation" class="foot-nav">
+				<!-- <nav role="navigation" class="foot-nav">
 					<ul>
 						<li><a href="#" title="Home">Home</a></li>
 						<li><a href="#" title="Blog">Blog</a></li>
@@ -45,7 +45,7 @@
 						<li><a href="#" title="Help">Help</a></li>
 						<li><a href="#" title="For partners">For partners</a></li>
 					</ul>
-				</nav>
+				</nav> -->
 			</div>
 		</div>
 	</footer>

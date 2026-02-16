@@ -21,7 +21,7 @@
 								</svg>
 							</span>
 							<span class="content">
-								0785492360
+							{{env('BOOKING_PHONENUMBER')}}
 							</span>
 						</a>
 						<a href="mailto:bookings@glasgowtoairporttaxi.co.uk" >
@@ -32,7 +32,7 @@
 								</svg>
 							</span>
 							<span class="content-email">
-							bookings@glasgowtoairporttaxi.co.uk
+							{{env('BOOKING_EMAIL')}}
 							</span>
 						</a>
 					</div>

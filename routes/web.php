@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
-
+use App\Mail\ContactUsMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,16 +20,27 @@ Route::get('/', function () {
 
 
 
-Route::get('innerpage/', function () {
+Route::get('innerpage', function () {
     return view('innerpage');
 });
 
-Route::get('aboutus/', function () {
+Route::get('aboutus', function () {
     return view('aboutus');
 });
 
 
-Route::get('services/', function () {
+Route::get('services', function () {
     return view('services');
 });
 
+
+Route::get('contactus', function () {
+    return view('contactus');
+});
+
+Route::post('contactusprocess', [ContactUsController::class, "contactUs" ]);
+
+
+Route::get("testEmail", function(){
+    return new App\Mail\ContactUsMail();
+}); /// Testing Email

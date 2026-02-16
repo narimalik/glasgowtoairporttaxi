@@ -32,7 +32,20 @@ TO DO:-
 
 Pages:
 Home
-About Us
+About Us ---- Done
 Our services
 Book Online
-Contact Us
+Contact Us------ Working On
+
+FAQs text. 
+
+GDPR 
+
+EventListener
+Email Controller
+
+SSL
+
+
+
+How to index a site in google.
