@@ -28,6 +28,14 @@ GIT:
 Create repository on Git	Done
 Upload files on Git.	Done
 CI/CD action via FTP
+<<<<<<< HEAD
+
+
+
+
+
+=======
+>>>>>>> moveMenuAfterHeader
 
 
 
@@ -35,3 +43,31 @@ CI/CD action via FTP
 
 
 
+
+EasyTaxi:
+https://easytaxioffice.co.uk/pricing/cloud/
+
+
+
+
+TO DO:-
+
+Pages:
+Home
+About Us ---- Done
+Our services
+Book Online
+Contact Us------ Working On
+
+FAQs text. 
+
+GDPR 
+
+EventListener
+Email Controller
+
+SSL
+
+
+
+How to index a site in google.

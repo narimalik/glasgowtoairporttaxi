@@ -89,7 +89,9 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .white 	{background-color:#fff !important;}
 
 /* 05 LAYOUT */
-.wrap 		{margin:0 auto;width:1170px;text-align:left;position:relative;max-width:94%;display:inline-block;}
+/* .wrap 		{margin:0 auto;width:1170px;text-align:left;position:relative;max-width:94%;display:inline-block;} */
+.wrap 		{margin:0 auto;width:100%;text-align:left;position:relative;max-width:94%;display:inline-block;}
+
 .row		{margin:0 -15px;}
 
 .full-width 	 	{float:left;width:100%;padding:0 15px 30px;max-width:100%;}
@@ -133,25 +135,89 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .circle .icon {color:#34394A;}
 
 /* 08 HEADER */
-.header 				{float:left;width:100%;background:#fff;height:80px;}
+.header 				{float:left;width:100%;background:#fff;height:100px;}
 .header > .wrap		{display:table;height:80px;}
+
+
+/* Anwaar */
+
+.alert{
+	margin: 10px 0px;
+	padding: 10px 0px;
+	text-align: center;	
+	font-weight: bold;
+}
+.alert-error{
+	border: 1px red solid;
+	color: red;
+}
+
+.alert-success{
+	border: 1px green dotted;
+	color: green;
+}
+
+.top-header-right 	{display:table-cell;vertical-align:middle;padding:5px 0;}
+
+.top-header-right > .header_contact { float: right;    }
+.top-header-right > .header_contact > a {   margin:2px;   display: inline-block;  }
+
+.top-header-right > .header_contact > a > .icon { width: 30px;	height: 30px;	display: inline-flex;	align-items: center;	justify-content: center; float: left;  }
+
+.top-header-right > .header_contact > a > svg { width: 100%;	height: 100%; }
+
+.top-header-right > .header_contact > a > .content{  font-size: 20px;  margin: 10px ; padding: 0; }
+.top-header-right > .header_contact > a > .content-email{  font-size: 20px;  margin: 10px ; padding: 0; }
+
+.width-75 { width: 75% !important;}
+
+.card-section {  float: left; width: 100%; text-align: center; }
+
+.card-section > .card-row {  width: 75%; display: inline-block;  }
+
+.card-section > .card-row > .card { float: left; width: 30%; margin: 20px;  opacity: 1;
+	filter: brightness(1);
+	transform: scale(1);
+	box-shadow: 0 18px 35px rgba(0,0,0,0.18); 
+	border-radius: 12px ;
+	padding: 20px;
+	border: 1px solid;
+
+	min-height: 150px;
+
+}
+
+.icon-svg {width: 30px;	height: 30px;	display: inline-flex;	align-items: center;	justify-content: center; float: left; }
+
+.card-section > .card-row > .card > .left { float: left; display: inline; }
+
+.card-section > .card-row > .card > .right {  float: right;  display: inline; width: 80%;  }
+
+.card-section > .card-row > .card > .right > .title { float: left; font-weight: bold; font-size: 18px; }
+
+.card-section > .card-row > .card > .right > p {  margin-top: 20px; float: left;}
+
+
+
+/* Anwaar */
+
 .logo					{display:table-cell;vertical-align:middle;padding:5px 0;}
-.main-nav 						{float:right;font-size:14px;text-transform:uppercase;position:relative;}
-.main-nav ul > li					{float:left;display:block;padding:30px 0 30px 30px;position:static;}
-.main-nav ul > li > a 				{color:#858585;border-radius:0;position:relative;}
+.main-nav 						{ float:left;font-size:14px;text-transform:uppercase;position:relative;  background-color: #225378; width: 100%; }
+.main-nav ul > li					{float:left;display:block;padding:30px 0 30px 60px;position:static;}
+.main-nav ul > li > a 				{color:white;border-radius:0;position:relative;}
 .main-nav ul > li.active > a, 
 .main-nav ul > li.active > a:hover, 
 .main-nav ul > li.active > a:focus,
 .main-nav ul > li:hover > a,
-.main-nav ul > li:focus > a				{color:#191F26;}
+.main-nav ul > li:focus > a		{color:#191F26;}
 
 .main-nav li:hover > ul 		{display:block;}
 .main-nav ul ul   				{display:none;position: absolute; top: 100%;margin-left:-10px;min-width:200px;background:#fff;-webkit-box-shadow:4px 6px 8px 0 rgba(0, 0, 0, 0.15);-moz-box-shadow:4px 6px 8px 0 rgba(0, 0, 0, 0.15);box-shadow:4px 6px 8px 0 rgba(0, 0, 0, 0.15);-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;z-index:9999;-webkit-transition: all .3s ease .15s;-moz-transition: all .3s ease .15s;-o-transition: all .3s ease .15s;-ms-transition: all .3s ease .15s;transition: all .3s ease .15s;}
 .main-nav ul ul li				{padding:0;}
-.main-nav ul ul li a 				{display:block;color:#191F26;font-size:13px;padding:9px 15px 7px;}
+.main-nav ul ul li a 			{display:block;color:#191F26;font-size:13px;padding:9px 15px 7px;}
 .main-nav ul ul li:hover a 		{color:#fff;background:#191F26;}
 .main-nav ul ul li:last-child a	{-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;} 		
-.main-nav ul ul li   				{float: none; position:relative;}
+.main-nav ul ul li   			{float: none; position:relative;}
 .main-nav ul ul ul   			{position: absolute; left: 100%; top:0;margin-left:0;}
 
 .main-nav li:hover > div 			{display:block;}
@@ -169,7 +235,7 @@ h6 {font-size:17px;text-transform:uppercase;padding:0 0 23px;}
 .home .main 				{padding:0;}
 .home .advanced-search 	{margin:0;}
 
-.intro 					{background:url(../images/uploads/keyvisual.jpg) 50% 0 fixed no-repeat;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;}
+.intro 					{background:url(../images/uploads/glasgowtoairporttaxi.png) center center fixed no-repeat; background-size: cover;height:100vh;overflow:hidden;float:left;width:100%;display:block;min-height:768px;}
 .intro .textwidget		{color:#fff;padding-top:24%;text-align:center;}
 .intro .textwidget h1 	{text-transform:uppercase;font-size:61px;margin:0 0 -5px;}
 .intro .textwidget h2 	{text-transform:uppercase;font-size:23px;margin:0;}
@@ -859,7 +925,8 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .advanced-search .form-group.right 		{width:25%;padding:0;}
 .form-group.radios > div:last-of-type	{float:left;padding-left:30px;}
 
-.services.iconic .one-third		{width:50%;}
+/* .services.iconic .one-third		{width:50%;} MAF */
+.services.iconic .one-third		{width:100%;}
 
 .result .one-fourth:first-of-type 	{width:25%;}
 .result .one-fourth 	{width:25%;}
@@ -868,6 +935,52 @@ div.radio input 						{opacity: 0;filter: alpha(opacity=0);-moz-opacity: 0;borde
 .main-nav li > div  {width:100% !important;}
 
 .tab-content .one-fourth	 {width:50%;}
+
+/* MAF */
+
+
+.top-header-right{
+	margin-left: 15px;	
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 10px;
+	font-weight: bold;
+	/* letter-spacing: 3px;	 */
+}
+
+.top-header-right > .header_contact > a > .content-email{
+	font-size: unset;
+	font-size: 15px !important;
+	
+}
+
+.header > .wrap > .logo > a {
+	/* background-color: red; */
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.header > .wrap > .logo > a img {
+	/* height: 70px; */
+	padding: 0;
+	margin: 0;	
+}
+
+
+.card-section > .card-row {  width: 91%; margin: 0; float: left;}
+
+.card-section > .card-row > .card { 
+	width: 100%;
+}
+
+
+
+
+/* MAF */
+
+
+
 }
 
 @media screen and (max-width: 1040px) {

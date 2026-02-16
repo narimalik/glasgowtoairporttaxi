@@ -1,35 +1,50 @@
+<header class="header" role="banner">
+			<div class="wrap">
+				<!-- Logo -->
+				<div class="logo">
+					<a href="/" title="Transfers"><img src="{{ asset('assets/images/logo.png') }}" alt="Transfers" /></a>
+				</div>
+				<!-- //Logo -->
+				
+				<div class="top-header-right">
+					<div class="header_contact">
+						
+						<a href="tel:+441234567890" >						
+							<span class="icon">
+								<svg xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24" fill="currentColor">
+									<path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2
+											a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57
+											a1 1 0 0 1 1 1V21a1 1 0 0 1-1 1C10.07 22 2 13.93 2 4
+											a1 1 0 0 1 1-1h4.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58
+											a1 1 0 0 1-.25 1.01l-2.2 2.2z"/>
+								</svg>
+							</span>
+							<span class="content">
+							{{env('BOOKING_PHONENUMBER')}}
+							</span>
+						</a>
+						<a href="mailto:bookings@glasgowtoairporttaxi.co.uk" >
+							<span class="icon" >
+								<svg xmlns="http://www.w3.org/2000/svg" 
+									viewBox="0 0 24 24" fill="currentColor">
+									<path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+								</svg>
+							</span>
+							<span class="content-email">
+							{{env('BOOKING_EMAIL')}}
+							</span>
+						</a>
+					</div>
+				</div>
 
-	<!-- <link rel="stylesheet" href="css/theme-pink.css" /> -->
-	<link rel="stylesheet" href="{{ asset('assets/css/theme-pink.css') }}" />
-
-	<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> -->
-	<link rel="stylesheet" href="{{ asset('https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css') }}" > 
-
-	<!-- <link rel="stylesheet" href="css/jquery-ui.theme.css" /> -->
-	<link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.theme.css') }}" > 
-
-	<!-- <link rel="stylesheet" href="css/style.css" /> -->
-	<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-
-	<!-- <link rel="stylesheet" href="css/animate.css" /> -->
-	<link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" />	
-
-	<!-- <link rel="stylesheet" href="css/icons.css" /> -->
-	<link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}" />
 
 
-	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-	<link href="{{ asset('http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
+				
+					
+				
+				
+			</div>
 
-	<!-- <link rel="shortcut icon" href="images/favicon.ico" /> -->
-	<link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
-
-	<script src=""></script>
-	<script src="{{ asset('https://use.fontawesome.com/e808bf9397.js') }}"></script>
-	
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+			
+		</header>

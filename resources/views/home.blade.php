@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
-<!-- @section('title',"ddd") -->
 
 @section('content')
+
+
+
+@push("styles")
+	<link href="{{ asset('assets/css/carousel_fleet.css') }}" rel="stylesheet">
+@endpush
 
 <main class="main" role="main">
 		<!-- Intro -->
@@ -347,172 +352,147 @@
 		<!-- //Search -->
 		
 		<!-- Services iconic -->
-		<div class="services iconic white">
-			<div class="wrap">
-				<div class="row">
-					<!-- Item -->
-					<div class="one-third wow fadeIn">
-						<span class="circle"><span class="icon  icon-themeenergy_savings"></span></span>
-						<h3>Fixed rates</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".2s">
-						<span class="circle"><span class="icon icon-themeenergy_lockpad"></span></span>
-						<h3>Reliable transfers</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".4s">
-						<span class="circle"><span class="icon icon-themeenergy_open-wallet"></span></span>
-						<h3>No booking fees</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn">
-						<span class="circle"><span class="icon icon-themeenergy_heart"></span></span>
-						<h3>Free cancellation</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".2s">
-						<span class="circle"><span class="icon icon-themeenergy_magic-trick"></span></span>
-						<h3>Booking flexibility</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".4s">
-						<span class="circle"><span class="icon icon-themeenergy_call"></span></span>
-						<h3>24h customer service</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn">
-						<span class="circle"><span class="icon icon-themeenergy_cup"></span></span>
-						<h3>Award winning service</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".2s">
-						<span class="circle"><span class="icon icon-themeenergy_attach"></span></span>
-						<h3>Benefits for partners</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-					
-					<!-- Item -->
-					<div class="one-third wow fadeIn" data-wow-delay=".4s">
-						<span class="circle"><span class="icon icon-themeenergy_stars"></span></span>
-						<h3>Quality vehicles</h3>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy  tinc dolore magna.</p>
-					</div>
-					<!-- //Item -->
-				</div>
-			</div>
-		</div>
+		@include('includes.iconicServices-includes')
 		<!-- //Services iconic -->
 		
-		<!-- Call to action -->
-		<div class="black cta">
-			<div class="wrap">
-				<p class="wow fadeInLeft">Like what you see? Are you ready to stand out? You know what to do.</p>
-				<a href="http://themeforest.net/item/transfers-transport-and-car-hire-html-template/9366018?ref=themeenergy" class="btn huge color right wow fadeInRight">Purchase theme</a>
-			</div>
-		</div>
-		<!-- //Call to action -->
+		
 		
 		<!-- Services -->
-		<div class="services boxed white" id="services">
-			<!-- Item -->
-			<article class="one-fourth wow fadeIn">
-				<figure class="featured-image">
-					<img src="{{ asset('assets/images/uploads/img2.jpg')}}" alt="" />
-					<div class="overlay">
-						<a href="services.html" class="expand">+</a>
-					</div>
-				</figure>
-				<div class="details">
-					<h4><a href="services.html">Private transfers</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a class="more" title="Read more" href="services.html">Read more</a>
-				</div>
-			</article>
-			<!-- //Item -->
-			
-			<!-- Item -->
-			<article class="one-fourth wow fadeIn" data-wow-delay=".2s">
-				<figure class="featured-image">
-					<img src="{{ asset('assets/images/uploads/img2.jpg') }}" alt="" />
-					<div class="overlay">
-						<a href="services.html" class="expand">+</a>
-					</div>
-				</figure>
-				<div class="details">
-					<h4><a href="services.html">Bus transfers</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a class="more" title="Read more" href="services.html">Read more</a>
-				</div>
-			</article>
-			<!-- //Item -->
-			
-			<!-- Item -->
-			<article class="one-fourth wow fadeIn" data-wow-delay=".4s">
-				<figure class="featured-image">
-					<img src="{{ asset('assets/images/uploads/img2.jpg') }}" alt="" />
-					<div class="overlay">
-						<a href="services.html" class="expand">+</a>
-					</div>
-				</figure>
-				<div class="details">
-					<h4><a href="services.html">Shuttle transfers</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a class="more" title="Read more" href="services.html">Read more</a>
-				</div>
-			</article>
-			<!-- //Item -->
-			
-			<!-- Item -->
-			<article class="one-fourth wow fadeIn" data-wow-delay=".6s">
-				<figure class="featured-image">
-					<img src="{{ asset('assets/images/uploads/img2.jpg') }}" alt="" />
-					<div class="overlay">
-						<a href="services.html" class="expand">+</a>
-					</div>
-				</figure>
-				<div class="details">
-					<h4><a href="services.html">Helicopter transfers</a></h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-					<a class="more" title="Read more" href="services.html">Read more</a>
-				</div>
-			</article>
-			<!-- //Item -->			
-		</div>
+		@include('includes.services-includes')
 		<!-- //Services -->
 		
 		<!-- Testimonials -->
-		<div class="testimonials center black">
+		<!-- <div class="testimonials center black">
 			<div class="wrap">
 				<h6 class="wow fadeInDown"><i class="fa fa-quote-left"></i>Wow, this theme is outstanding!</h6>
 				<p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 				<p class="meta wow fadeInUp">-John Doe, themeforest</p>
 			</div>
-		</div>
+		</div> -->
 		<!-- //Testimonials -->
+
+
+
+
+		<!--  Fleet Carousel -->		
+		@include('includes.ourfleet-includes')
+		<!-- Fleet Carousel -->
+
+
+
+		<!-- FAQs -->
+
+		<section class="fleet-section white center">
+
+				<h2 class="fleet-title">Before you book</h2>
+				
+					<dl class="faqs width-75">
+						<!-- Item -->
+						<dt class="">How do I make a booking on your website?</dt>
+						<dd style="display: none;">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+							<p>Duis autem vel eum iriure dolor in <a href="#">hendrerit in vulputate</a> velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						</dd>
+						<!-- //Item -->
+												
+						
+						<!-- Item -->
+						<dt>I cannot find a route I want to book. What to do?</dt>
+						<dd style="display: none;">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+							<p>Duis autem vel eum iriure dolor in <a href="#">hendrerit in vulputate</a> velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						</dd>
+						<!-- //Item -->
+						
+						<!-- Item -->
+						<dt>How do I pay for my transfer?</dt>
+						<dd style="display: none;">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+							<p>Duis autem vel eum iriure dolor in <a href="#">hendrerit in vulputate</a> velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						</dd>
+						<!-- //Item -->
+						
+						<!-- Item -->
+						<dt>Can I book a transfer with more than one stop?</dt>
+						<dd style="display: none;">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+							<p>Duis autem vel eum iriure dolor in <a href="#">hendrerit in vulputate</a> velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						</dd>
+						<!-- //Item -->
+					</dl>
+				
 		
+
+		</section>
+
+		<!-- FAQS -->
+
+
+
+		<!--  -->
+
+		<section class="card-section center white">
+		<div class="card-row center">	
+			<div class="card">					
+
+				<div class="left">
+					<span class="icon-svg">
+						<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+						</svg>				
+					</span>				
+				</div>
+				<div class="right">
+					<span class="title">Glasgow City -> Glasgow Airport.</span>
+					<p >10 min – 20 min / 7 Miles</p>
+				</div>
+				
+			</div>
+
+			<div class="card">					
+
+				<div class="left">
+					<span class="icon-svg">
+						<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+						</svg>				
+					</span>				
+				</div>
+				<div class="right">
+					<span class="title">Glasgow City -> Glasgow Airport.</span>
+					<p >10 min – 20 min / 7 Miles</p>
+				</div>
+				
+			</div>
+
+
+			<div class="card">					
+
+				<div class="left">
+					<span class="icon-svg">
+						<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+						</svg>				
+					</span>				
+				</div>
+				<div class="right">
+					<span class="title">Glasgow City -> Glasgow Airport.</span>
+					<p >10 min – 20 min / 7 Miles</p>
+				</div>
+				
+			</div>
+
+			
+		</div>
+
+		</section>
+		<!--  -->
+
+
+
+
+<!-- 		
 		<div class="partners white center">
 			<div class="wrap">
 				<h2 class="wow fadeIn">Our partners</h2>
@@ -522,21 +502,22 @@
 				<div class="one-fifth wow fadeIn" data-wow-delay=".6s"><a href="#"><img src="{{ asset('assets/images/uploads/logo4.jpg') }}" alt="" /></a></div>
 				<div class="one-fifth" data-wow-delay=".8s"><a href="#"><img src="{{ asset('assets/images/uploads/logo5.jpg') }}" alt="" /></a></div>
 			</div>
-		</div>
+		</div> -->
 		
 		
 		<!-- Call to action -->
-		<div class="color cta">
+		<!-- <div class="color cta">
 			<div class="wrap">
 				<p class="wow fadeInLeft">Like what you see? Are you ready to stand out? You know what to do.</p>
 				<a href="http://themeforest.net/item/transfers-transport-and-car-hire-html-template/9366018?ref=themeenergy" class="btn huge black right wow fadeInRight">Purchase theme</a>
 			</div>
-		</div>
+		</div> -->
 		<!-- //Call to action -->
 	</main>
 
 @push("scripts")
 <script src=" {{ asset('assets/js/jquery-ui-timepicker-addon.min.js') }}"></script> 
+
 @endpush
 
 @endsection

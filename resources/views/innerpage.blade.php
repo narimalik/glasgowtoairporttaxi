@@ -1,11 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.innerpage')
 
 <!-- @section('title',"ddd") -->
 
 @section('content')
-<main class="main" role="main" style="margin-top: 80px;">
+<main class="main" role="main" >
 		<!-- Page info -->
-		<header class="site-title color">
+		<!-- <header class="site-title color">
 			<div class="wrap">
 				<div class="container">
 					<h1>Tailor made</h1>
@@ -17,7 +17,7 @@
 					</nav>
 				</div>
 			</div>
-		</header>
+		</header> -->
 		<!-- //Page info -->
 		
 		<div class="wrap">

@@ -1,0 +1,64 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 33.3333%;
+  box-sizing: border-box;
+  padding: 20px;
+  
+  
+  position: relative;   /* important */
+  min-height: 700px;
+
+  
+}
+
+.slide img{
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.3);
+  
+}
+
+.slide h3{
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  
+  
+  
+}
+
+.slide p{
+  width: 100%;
+  float: left;
+  text-align:justify;
+}
+
+.slide button{
+  display: inline-block;
+  padding: 11px 18px;
+  border-radius: 8px;
+  background: #225378;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+
+  position: absolute;
+  bottom: 20px;         /* distance from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* 📱 Mobile: EXACTLY 1 slide */
+@media (max-width: 768px) {
+  .slide {
+    flex: 0 0 100%;
+  }
+}
