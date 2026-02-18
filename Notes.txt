@@ -3,10 +3,6 @@ Using:
 Laravel 10v
 
 
-Check with EasyTaxi
-Gather Content.
-Add Menu
-
 
 Slice HTML into pages.
 Use only .css and .js file related to that page.
@@ -19,28 +15,10 @@ Create Page Layout
 Convert HTML into Laravel resources pages
 
 
-Uplod on staging server.
-
-
-
 
 GIT:
-Create repository on Git	Done
-Upload files on Git.	Done
-CI/CD action via FTP
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> moveMenuAfterHeader
-
-
-
-
-
+Create repository on Git
+Upload files on Git.
 
 
 
@@ -71,3 +49,6 @@ SSL
 
 
 How to index a site in google.
+
+
+dsfds32423
