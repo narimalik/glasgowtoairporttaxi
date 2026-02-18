@@ -17,6 +17,8 @@
 	<!-- <link rel="stylesheet" href="css/icons.css" /> -->
 	<link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}" />
 
+	<link href="{{ asset('assets/css/style-gdpr.css') }}" rel="stylesheet">
+
 
 	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700' rel='stylesheet' type='text/css'> -->
 	<link href="{{ asset('http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
@@ -26,6 +28,7 @@
 
 	<script src=""></script>
 	<script src="{{ asset('https://use.fontawesome.com/e808bf9397.js') }}"></script>
+	
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

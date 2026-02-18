@@ -1,3 +1,6 @@
+@push("styles")
+	<link href="{{ asset('assets/css/style-gdpr.css') }}" rel="stylesheet">
+@endpush
 <footer class="footer black" role="contentinfo">
 		<div class="wrap">
 			<div class="row">
@@ -33,7 +36,7 @@
 			</div>
 			
 			<div class="copy">
-				<p>Copyright <?php echo date('Y')?>, GlasgowToAirportTaxi. All rights reserved. </p>
+				<p>Copyright <?php echo date('Y')?>, GlasgowToAirportTaxi. All rights reserved2. </p>
 				
 				<!-- <nav role="navigation" class="foot-nav">
 					<ul>
@@ -48,4 +51,29 @@
 				</nav> -->
 			</div>
 		</div>
+
+
+	<!-- GDPR -->
+
+	<div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-content">
+        <p>
+            We use cookies to improve your experience and analyse website traffic.
+            Please choose whether to accept or decline non-essential cookies.
+            <a href="/privacy-policy" class="cookie-link">Privacy Policy</a>
+        </p>
+
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">Accept</button>
+            <button id="decline-cookies" class="btn-decline">Decline</button>
+        </div>
+    </div>
+</div>
+
+
+	<!-- GDPR -->
+
 	</footer>
+
+
+	
