@@ -1,12 +1,15 @@
 <div class="intro">
 			<div class="wrap">
 				<div class="textwidget">
-					<h1 class="wow fadeInDown">Need a ride?</h1>
-					<h2 class="wow fadeInUp">You've come to the right place.</h2>
-					<div class="actions">
-						<a href="#services" title="Our services" class="btn large white wow fadeInLeft anchor">Our services</a>
-						<a href="#booking" title="Make a booking" class="btn large color wow fadeInRight anchor">Make a booking</a>
-					</div>
+					
+						<!-- Ifram -->
+
+		<iframe src="https://699793ca1caa1.trial.easytaxioffice.com/booking/widget?site_key=7e3f3d3085b900d598bc40543d611575" id="eto-iframe-booking-widget" allow="geolocation" width="100%" height="250" scrolling="no" frameborder="0" style="width:1px; min-width:100%; border:0;"></iframe>
+		<script src="https://699793ca1caa1.trial.easytaxioffice.com/assets/plugins/iframe-resizer/iframeResizer.min.js"></script>
+		<script>iFrameResize({log:false, targetOrigin:'*', checkOrigin:false}, "iframe#eto-iframe-booking-widget");</script>
+		<!--  -->
+		
+					
 				</div>
 			</div>
 		</div>

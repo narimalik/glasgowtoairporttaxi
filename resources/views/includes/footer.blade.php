@@ -60,7 +60,7 @@
         <p>
             We use cookies to improve your experience and analyse website traffic.
             Please choose whether to accept or decline non-essential cookies.
-            <a href="/privacy-policy" class="cookie-link">Privacy Policy</a>
+            <!-- <a href="/privacy-policy" class="cookie-link">Privacy Policy</a> -->
         </p>
 
         <div class="cookie-buttons">

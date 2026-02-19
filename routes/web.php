@@ -33,6 +33,9 @@ Route::get('services', function () {
     return view('services');
 });
 
+Route::get('booking', function () {
+    return view('booking_online');
+});
 
 Route::get('contactus', function () {
     return view('contactus');

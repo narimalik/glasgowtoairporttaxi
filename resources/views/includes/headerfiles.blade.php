@@ -21,7 +21,7 @@
 
 
 	<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-	<link href="{{ asset('http://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
+	<link href="{{ asset('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Montserrat:400,700') }}" rel='stylesheet' type='text/css'>
 
 	<!-- <link rel="shortcut icon" href="images/favicon.ico" /> -->
 	<link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" />
