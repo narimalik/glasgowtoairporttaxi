@@ -24,6 +24,8 @@ Upload files on Git.
 
 EasyTaxi:
 https://easytaxioffice.co.uk/pricing/cloud/
+Can't see scottish address.
+
 
 
 
@@ -31,24 +33,35 @@ https://easytaxioffice.co.uk/pricing/cloud/
 TO DO:-
 
 Pages:
-Home
+Home ---- Done
 About Us ---- Done
-Our services
+Our services --- Done
 Book Online
-Contact Us------ Working On
+Contact Us------ Done
 
-FAQs text. 
+FAQs text ---- Done
 
-GDPR 
 
-EventListener
-Email Controller
+GDPR --- Done
 
-SSL
+Event and Listener ... Done
+Email Controller ... Done
+
+SSL --- Done
 
 
 
 How to index a site in google.
 
 
-dsfds32423
+
+
+
+
+
+
+195059882
+
+
+
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFkNmlmTUlzRlpTcU5GTzdkWDBkeTltanBqX21qX1NnZ084bng2ektQTHcifQ.eyJpc3MiOiJodHRwczovL2V4dGVybmFsYXV0b3NzbC5zZXJ2aWNlLnNwYWNlc2hpcC5jb20iLCJuYmYiOjE3NzE0MTEzNzQsImlhdCI6MTc3MTQxMTM3NCwiZXhwIjoxNzcxNDk3Nzc0LCJhdWQiOlsiZXh0ZXJuYWxhdXRvc3NsIl0sInNjb3BlIjpbImV4dGVybmFsYXV0b3NzbC5leHRlcm5hbGF1dG9zc2wiLCJleHRlcm5hbGF1dG9zc2wudXNlci1pbnRlZ3JhdGlvbi1jcmVhdGUiXSwiY2xpZW50X2lkIjoiZXh0ZXJuYWwtc3NsLWNsaWVudCIsInN1YiI6IjA0ZTNhMjVlLTU2MWItNDI0OC1iNTc1LTg3NmEyYjk4MmUyNiJ9.IGOdCQd7vIDXsU0wClnFpnt3X8zoo1dijkl71ysopPzEFebCXhJq5IXU8mGpSgu2y8ijkiYXJ9Y6tOzyF8laKzh1p7lf_Ym-bfnK6hL7f5dj5xB2svr2lZFfaVjrVW9uy5lv194TwPA52CjtkLxp8t1-91R30Ns_5ITKVUcDKLWHKIU_MUdLqjxGaQEUER07gNZworNLfz9tNMrWcydrcDGdBH77aPg8aVyfW-2gcLOCtW5berQ1ItFMYGhoULRS-v9CECPy4zcXOHap6p7C61LHL-WkPk-vufUohtsO09DrI1K3leynckNmnmaR7z3tSetVOv-ubhvynv6hQN-yiw

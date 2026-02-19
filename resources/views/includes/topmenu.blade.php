@@ -20,7 +20,7 @@
 							<li><a href="blog-single.html" title="Post">Post</a></li>
 						</ul>
 					</li> -->
-					<li><a href="contact.html" title="Contact">Book Online</a></li>
+					<li><a href="{{ url('booking')}}" title="Contact">Book Online</a></li>
 					<li><a href="{{ url('contactus') }}" title="">Contact Us</a></li>
 					<!-- <li><a href="#" title="Pages">Pages</a>
 						<div>

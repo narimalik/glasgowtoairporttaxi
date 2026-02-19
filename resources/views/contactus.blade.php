@@ -54,17 +54,17 @@
 						<div class="f-row">
 							<div class="one-half">
 								<label for="name">Name</label>
-								<input name="name" type="text" id="name">
+								<input name="name" type="text" id="name" required>
 							</div>
 							<div class="one-half">
 								<label for="email">Email address</label>
-								<input name="email" type="email" id="email">
+								<input name="email" type="email" id="email" required>
 							</div>
 						</div>
 						<div class="f-row">
 							<div class="full-width">
 								<label for="comments">Message</label>
-								<textarea name="comments"></textarea>
+								<textarea name="comments" required></textarea>
 							</div>
 						</div>
 						<div class="f-row">
