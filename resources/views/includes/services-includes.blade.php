@@ -14,7 +14,7 @@
 						 professional drivers are always punctual and prepared. We monitor flight schedules to accommodate delays or early arrivals, offering
 						  a smooth and efficient pickup experience. With spacious, luxury vehicles and assistance with luggage, our airport transfers are ideal 
 						  for business travellers, families, and leisure passengers alike.</p>
-					<button>Learn More</button>
+					<a href="{{ url('booking')}}"><button>Book Now</button></a>
 				</div>
 
 				<div class="slide">
@@ -24,7 +24,7 @@
 						attending an appointment, or travelling across the city, we offer prompt pickups and efficient routes to get you where you need to be. Our 
 						vehicles are always clean, modern, and well-maintained, ensuring a comfortable ride for short or long journeys. With professional drivers 
 						and transparent service, our city taxi option combines convenience with executive-level comfort.</p>
-					<button>Learn More</button>
+						<a href="{{ url('booking')}}"><button>Book Now</button></a>
 				</div>
 
 				<div class="slide">
@@ -35,7 +35,7 @@
 						from start to finish. Travelling in one of our new luxury cars allows you to relax, focus on your work, or enjoy the journey while we 
 						handle the driving. Each chauffeur is experienced, courteous, and committed to delivering a first-class service tailored to your 
 						schedule and requirements.</p>
-					<button>Learn More</button>
+						<a href="{{ url('booking')}}"><button>Book Now</button></a>
 				</div>
 
 				<div class="slide">
@@ -45,7 +45,7 @@
 						We work with companies of all sizes to provide transport for executives, employees, clients, and visiting guests. From daily business 
 						travel to airport transfers and corporate events, our service reflects professionalism and reliability. Our luxury vehicles help create 
 						a positive impression, while our punctual service ensures schedules are maintained without disruption.</p>
-					<button>Learn More</button>
+						<a href="{{ url('booking')}}"><button>Book Now</button></a>
 					
 				</div>
 

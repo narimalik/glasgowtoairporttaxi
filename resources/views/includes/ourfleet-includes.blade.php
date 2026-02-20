@@ -14,7 +14,7 @@
 					<!-- <img src="saloon-car.jpg" alt="Saloon Car"> -->
 					<h3>Saloon Car</h3>
 					<p>Comfortable ride for up to 3 passengers with luggage.</p>
-					<a href="#" class="fleet-btn">Book Now</a>
+					<a href="{{ url('booking')}}#" class="fleet-btn">Book Now</a>
 				</div>
 
 				<!-- Slide 2 -->
@@ -23,7 +23,7 @@
 					<img src="{{ asset('assets/images/executive-car.jpg')}}" alt="" />
 					<h3>Executive Car</h3>
 					<p>Premium executive travel for business and airport transfers.</p>
-					<a href="#" class="fleet-btn">Book Now</a>
+					<a href="{{ url('booking')}}" class="fleet-btn">Book Now</a>
 				</div>
 
 				<!-- Slide 3 -->
@@ -32,7 +32,7 @@
 					<img src="{{ asset('assets/images/Executive-Minibus.jpg')}}" alt="" />
 					<h3>Executive Minibus</h3>
 					<p>Perfect for groups up to 7 passengers with luggage space.</p>
-					<a href="#" class="fleet-btn">Book Now</a>
+					<a href="{{ url('booking')}}" class="fleet-btn">Book Now</a>
 				</div>
 
 				<!-- Slide 4 -->
@@ -41,7 +41,7 @@
 					<img src="{{ asset('assets/images/Estate-Car.jpg')}}" alt="" />
 					<h3>Estate Car</h3>
 					<p>Extra boot space for airport luggage and long-distance trips.</p>
-					<a href="#" class="fleet-btn">Book Now</a>
+					<a href="{{ url('booking')}}" class="fleet-btn">Book Now</a>
 				</div>
 
 				</div>

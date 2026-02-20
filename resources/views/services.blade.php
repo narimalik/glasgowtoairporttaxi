@@ -14,9 +14,9 @@
 		<!-- Intro -->
 	<?php // include("includes/herobanner.php"); ?>
     <!-- @include('includes.herobanner-innerpage') -->
-
-	<div class="keyvisual" style="margin-bottom:30px">
-		<img src="{{ asset('assets/images/uploads/glasgowtoairporttaxi.png') }}" alt="">
+	
+	<div class="keyvisual" style="background-color: #225378; margin-bottom:30px">
+		<img style="top: -50px; transform: scale(2.1); " src="{{ asset('assets/images/uploads/banner_services.png') }}" alt="">
 	</div>
 		<!-- //Intro -->
 		

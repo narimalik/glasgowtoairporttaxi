@@ -15,7 +15,7 @@
     <!-- @include('includes.herobanner-innerpage') -->
 
 	<div class="keyvisual" style="margin-bottom:30px">
-		<img src="{{ asset('assets/images/uploads/glasgowtoairporttaxi.png') }}" alt="">
+		<img src="{{ asset('assets/images/uploads/banner_aboutus.png') }}" alt="">
 	</div>
 		<!-- //Intro -->
 		
